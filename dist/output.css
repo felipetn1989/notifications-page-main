@@ -750,12 +750,36 @@ body {
     width: 100%;
   }
 
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
   .lg\:flex-col {
     flex-direction: column;
   }
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
+  }
+
+  .lg\:p-14 {
+    padding: 3.5rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
+  }
+
+  .lg\:p-20 {
+    padding: 5rem;
   }
 }
 
