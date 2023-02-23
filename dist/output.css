@@ -549,6 +549,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -567,6 +571,14 @@ video {
 
 .self-start {
   align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .rounded-md {
@@ -592,18 +604,9 @@ video {
   background-color: rgb(247 250 253 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#e5effa\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 239 250 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
 }
 
 .p-4 {
@@ -615,14 +618,19 @@ video {
   padding-right: 1rem;
 }
 
+.px-\[2\.1875rem\] {
+  padding-left: 2.1875rem;
+  padding-right: 2.1875rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -742,16 +750,12 @@ body {
     display: flex;
   }
 
-  .lg\:w-\[44rem\] {
-    width: 44rem;
+  .lg\:w-12 {
+    width: 3rem;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
-  .lg\:w-96 {
-    width: 24rem;
+  .lg\:w-\[46rem\] {
+    width: 46rem;
   }
 
   .lg\:flex-col {
@@ -762,24 +766,48 @@ body {
     align-items: center;
   }
 
-  .lg\:p-10 {
-    padding: 2.5rem;
+  .lg\:gap-2 {
+    gap: 0.5rem;
   }
 
-  .lg\:p-12 {
-    padding: 3rem;
+  .lg\:gap-4 {
+    gap: 1rem;
   }
 
-  .lg\:p-14 {
-    padding: 3.5rem;
+  .lg\:justify-self-end {
+    justify-self: end;
+  }
+
+  .lg\:rounded-md {
+    border-radius: 0.375rem;
   }
 
   .lg\:p-16 {
     padding: 4rem;
   }
 
-  .lg\:p-20 {
-    padding: 5rem;
+  .lg\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:py-\[1\.125rem\] {
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+  }
+
+  .lg\:text-\[1\.375rem\] {
+    font-size: 1.375rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
